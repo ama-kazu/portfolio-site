@@ -1,0 +1,418 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/* CSSここから */
+/* CSSここから */
+/* CSSここから */
+/* CSSここから */
+
+
+
+
+
+body{
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+}
+/* ヘッダー */
+.navbar{
+    position: relative;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.h-h1{
+    margin-left: 32px;
+    margin-top: 16px;
+}
+button{
+    margin-right: 16px;
+    margin-top: 16px;
+}
+.h-menu{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #dee2e6;
+}
+.h-m-list{
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+.h-menu li:nth-child(odd){
+    border-right: 1px solid #dee2e6;
+}
+.h-m-list a{
+    color: rgba(51, 51, 51,0.7);
+    text-decoration: none;
+    display: block;
+    padding: 16px 0;
+}
+.h-m-list a:hover{
+    color: rgba(51, 51, 51,1);
+}
+.h-socialBtn-menu{
+    width: 100%;
+    justify-content: center;
+}
+.h-socialBtn-menu li{
+    list-style: none;
+}
+.h-socialBtn-menu a{
+    display: block;
+    opacity: 0.7;
+}
+.h-socialBtn-menu a:hover{
+    opacity: 1;
+}
+#current{
+    color: rgba(51, 51, 51,0.3);
+}
+/* メイン */
+.m-mainVisual{
+    margin: 16px 0;
+}
+.m-mainVisual img{
+    width: 100%;
+}
+.pc-img{
+    max-width: 960px;
+    max-height: 420px;
+}
+.mobile-img{
+    max-width: 480px;
+    max-height: 570px;
+}
+.m-service img{
+    width: 64px;
+}
+.m-service p{
+    line-height: 1.5;
+}
+.topPage-h2{
+    text-align: center;
+    font-size: 40px;
+}
+.other-h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.topPage-h3{
+    text-align: center;
+    font-size: 20px;
+}
+.m-works img{
+    width: 280px;
+    height: 260px;
+}
+/* アバウト */
+.about-skill-menu li{
+    list-style: none;
+    text-align: center;
+}
+.name-and-birth h2{
+    font-size: 18px;
+}
+.name{
+    margin-right: 10px;
+}
+.about-social dl{
+    line-height: 1.5;
+}
+.about-social dt{
+    float: left;
+    width: 9rem;
+}
+.about-social a{
+    text-decoration: none;
+    color: #333;
+}
+.about-social a:hover{
+    text-decoration: underline;
+}
+.about-main-fix{
+    margin-bottom: 48px;
+}
+/* ワーク */
+.works-m-works{
+    margin-bottom: 48px;
+}
+.works-snapshot{
+    width: 100%;
+}
+.works-m-works h3{
+    margin-top: 16px;
+}
+.works-m-works h3 a{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.works-m-works h3 a:hover{
+    text-decoration: underline;
+}
+.works-newWindow{
+    padding-left: 4px;
+}
+.works-m-works p{
+    margin-top: 16px;
+}
+/* コンタクト */
+input[type="text"],input[type="email"],input[type="tel"],textarea{
+    width: 300px;
+}
+.required{
+    background: red;
+    color: white;
+    margin-left: 20px;
+    padding: 1px 3px;
+    font-size: 70%;
+}
+input[type="submit"]{
+    width: 200px;
+    padding: 15px 25px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"]:hover{
+    background: #ccc;
+    color: white;
+    border: 1px solid #666;
+  }
+/* フッター */
+.f-socialBtn-menu{
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+.f-socialBtn-menu li{
+    list-style: none;
+    width: 100%;
+}
+.f-socialBtn-menu li:nth-child(odd){
+    border-right: 1px solid #dee2e6;
+}
+.f-socialBtn-menu img{
+    width: 32px;
+    height: 32px;
+}
+.f-socialBtn-menu a{
+    display: block;
+    padding: 10px;
+    opacity: 0.7;
+}
+.f-socialBtn-menu a:hover{
+    opacity: 1;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+/* レスポンシブ */
+@media screen and (max-width: 576px){
+    #container-fix{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media screen and (min-width: 576px){
+/* ヘッダー */
+    .navbar{
+        display: block;
+        height: 270px;
+    }
+    .h-h1{
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        margin: 0; 
+    }
+    .navbar-brand {
+        font-size: 3rem;
+    }
+    .h-menu{
+        border-style: none;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 5%;
+    }
+    .h-m-list{
+        border-style: none;
+        width: auto;
+        margin-left: 50px;
+    }
+    .h-menu li:nth-child(odd){
+        border-style: none;
+    }
+    .h-m-list a{
+        color: rgba(51, 51, 51,1);
+    }
+    .h-m-list a:hover{
+        text-decoration: underline;
+    }
+    .h-socialBtn-menu{
+        position: absolute;
+        top: 32%;
+        right: 0%;
+        width: auto;
+    }
+/* メイン */
+    .m-mainVisual{
+        background-color: #ecebeb;
+        margin: 0;
+    }
+    .m-service img{
+        width: 84px;
+    }
+    .m-service p{
+        margin: 0;
+    }
+    .m-works img{
+        width: 100%;
+        height: 100%;
+    }
+    .other-h2{
+        text-align: left;
+        margin-bottom: 48px;
+    }
+/* フッター */
+    .f-socialBtn-menu{
+        border-style: none;
+        justify-content: flex-start;
+    }
+    .f-socialBtn-menu li{
+        width: auto;
+        margin-right: 50px;
+    }
+    .f-socialBtn-menu li:nth-child(odd){
+        border-style: none;
+    }
+    .f-socialBtn-menu a{
+        display: inline;
+        padding: 0;
+    }
+    footer p{
+        text-align: right;
+    }
+}
+@media screen and (min-width: 768px){
+/* メイン */
+/* コンタクト */
+    input[type="text"],input[type="email"],input[type="tel"]{
+        width: 400px;
+    }
+    textarea{
+        width: 450px;
+    }
+}

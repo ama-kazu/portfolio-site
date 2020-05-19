@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Works | ama 神奈川でフリーランスのWeb制作を行っています。</title>
+  </head>
+  <body>
+    
+    <div class="container" id="container-fix">
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-light p-0">
+          <h1 class="h-h1"><a href="index.html" class="navbar-brand">ama's</a></h1>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="h-menu my-3">
+              <li class="h-m-list"><a href="about.html">About</a></li>
+              <li class="h-m-list"><a id="current" href="works.html">Works</a></li>
+              <li class="h-m-list"><a href="https://ama-d-blog.com" target="_blank">Blog</a></li>
+              <li class="h-m-list"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <ul class="h-socialBtn-menu d-flex my-3">
+            <li class="mr-3"><a href=""><img src="img/twitter.png" alt=""></a></li>
+            <li class="ml-3"><a href=""><img src="img/youtube.png" alt=""></a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container">
+      <main>
+        <h2 class="other-h2">Works</h2>
+        <div class="works-m-works" id="work1">
+          <a href=""><img class="works-snapshot border" src="img/work1.png" alt=""></a>
+          <h3><a href="">シンプルなホームページ<img class="works-newWindow" src="img/newWindow.png" alt=""></a></h3>
+          <p>架空のホームページの模写を行いました。HTMLとCSSを使い、ゼロからコーディングを行いました。</p>
+        </div>
+        <div class="works-m-works" id="work2">
+          <a href=""><img class="works-snapshot border" src="img/work2.png" alt=""></a>
+          <h3><a href="">シンプルなコーポレートサイト<img class="works-newWindow" src="img/newWindow.png" alt=""></a></h3>
+          <p>架空のコーポレートサイトの模写を行いました。スマートフォンやPCなど、画面幅の異なる端末での閲覧を考慮したレスポンシブ対応をしております。</p>
+        </div>
+      </main>
+      <div id="toTop" class="text-center">
+        <a href="#"><img src="img/icon_totop.gif" alt="" width="22" height="14"></a>
+      </div>
+    </div>
+
+
+    <div class="container" id="container-fix">
+      <footer class="my-4">
+        <ul class="f-socialBtn-menu d-flex my-4">
+          <li class=""><a href=""><img src="img/twitter.png" alt=""></a></li>
+          <li class=""><a href=""><img src="img/youtube.png" alt=""></a></li>
+        </ul>
+        <p class="text-muted">&copy; ama's All rights reserved.</p>
+      </footer>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+      $(function(){
+        'use strict'
+        var pagetop = $('#toTop');
+        pagetop.click(function () {
+          $('body, html').animate({ scrollTop: 0 }, 500);
+          return false;
+        });
+      });
+    </script>
+
+  </body>
+</html>
